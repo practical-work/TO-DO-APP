@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+}
+
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav{
+    margin-top: 10px;
+    text-align: center;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+    font-size: 14px;
+}
+
+.flash.success{
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+
+.flash.error{
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+.flash.info{
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bee5eb;
+    border-radius: 5px;
+}
+
+.login-group{
+    margin-bottom: 15px;
+}
+.login-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-group input{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #555;
+}
+
+.task-box{
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-form{
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-box h3{
+    margin-top: 0;
+}
+
+.task-form input[type="text"]{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}   
+
+.task-form button{
+    width: auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.task-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.task-table th, .task-table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.task-table th{
+    background-color: #f4f4f4;
+}
+
+.btn-delete{
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn-delete:hover{
+    background-color: #c0392b;
+}
+
+.badge{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.badge.completed{
+    background-color: #27ae60;
+}
+.badge.pending{
+    background-color: #f39c12;
+}
+.badge.working{
+    background-color: #e74c3c;
+}
+
+.btn-clear{
+    padding: 5px 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}   
+
+.btn-clear :hover{
+    background-color: #c0392b;
+}
